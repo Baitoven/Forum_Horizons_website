@@ -1,0 +1,20 @@
+[
+    {
+        "nom": "oui",
+        "description": "Coucou, c'est moi ;)",
+        "logo": "/images/logo_horizon_large.PNG",
+        "link": "https://coucou.fr/"
+    },
+    {
+        "nom": "oui",
+        "description": "Coucou, c'est moi ;)",
+        "logo": "/images/logo_horizon_large.PNG",
+        "link": "https://coucou.fr/"
+    },
+    {
+        "nom": "oui",
+        "description": "Coucou, c'est moi ;)",
+        "logo": "/images/logo_horizon_large.PNG",
+        "link": "https://coucou.fr/"
+    }
+]

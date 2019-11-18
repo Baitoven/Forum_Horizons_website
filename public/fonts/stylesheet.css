@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'caviardreams';
+    src: url('CaviarDreams.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'caviardreams_bold';
+    src: url('caviardreams_Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'caviardreams_italic';
+    src: url('caviardreams_Italic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'caviardreams_bolditalic';
+    src: url('caviardreams_BoldItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+

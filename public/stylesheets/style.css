@@ -1,0 +1,59 @@
+/* RGB */
+* {
+  font-family: 'caviardreams_bold',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+nav {
+  background-color: #479934;
+  padding-left: 2vh;
+}
+
+.page-footer {
+  background-color: #479934;
+}
+
+p {
+  text-align: justify;
+}
+
+.row {
+  margin-bottom: 0%;
+}
+
+strong {
+  font-family: 'caviardreams_bolditalic';
+}
+
+.responsive-img {
+  display: inline-block !important;
+  height: 80% !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  margin: 1vh;
+  width: auto !important;
+}
+
+.responsive-img-body {
+  height: auto !important;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+}
+
+.responsive-img-photo {
+  max-height: 50%;
+  max-width: 50%;
+  overflow: hidden;
+}
+/*# sourceMappingURL=style.css.map */
