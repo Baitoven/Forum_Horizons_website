@@ -1,20 +1,24 @@
 [
     {
-        "nom": "oui",
-        "description": "Coucou, c'est moi ;)",
-        "logo": "/images/logo_horizon_large.PNG",
-        "link": "https://coucou.fr/"
+        "id": "1",
+        "nom": "BATHÔ",
+        "description": "BATHÔ rénove d’anciens voiliers et vedettes des années 60 à 80 devenus inaptes à la navigation pour les convertir  en habitations insolites sur terre ferme. Cette entreprise située à Rezé prolonge la durée de vie des bateaux de plaisance, en les transformant en des gites pour les particuliers, des hébergements insolites pour les campings, des aires de jeux pour les collectivités, ou encore des salles de réunion pour les entreprises. ",
+        "description2": "MISSIONS : Valoriser 50 ans d’histoire des chantiers navals de nos régions, créer de la valeur économique, sociale et environnementale, accompagner le développement du tourisme durable. Réemploi, Economie Sociale et Solidaire et utilité sociale",
+        "description3": "METIERS ET CARRIERES : Ingénieur, Chef de projet, menuisiers concepteur, agenceur, design",
+        "description4": "RECHERCHE: 2 stagiaires  ayant des spécialités dans les domaines: Projet/Ingénieur/Agenceur/Eco conception/Design de niveau équivalent L1 / L2 / L3 / M1 / M2",
+        "description5": "À L’OCCASION DU FORUM HORIZONS : débat « Que pourrions-nous imaginer comme nouvel usage pour un bateau ? »",
+        "image": "/images/Batho.png",
+        "link": "https://www.batho.fr/"
     },
     {
-        "nom": "oui",
-        "description": "Coucou, c'est moi ;)",
-        "logo": "/images/logo_horizon_large.PNG",
-        "link": "https://coucou.fr/"
-    },
-    {
-        "nom": "oui",
-        "description": "Coucou, c'est moi ;)",
-        "logo": "/images/logo_horizon_large.PNG",
-        "link": "https://coucou.fr/"
+        "id": "2",
+        "nom": "Enercoop",
+        "description": "Enercoop est un fournisseur coopératif d'électricité 100% renouvelable.",
+        "description2": "Engagement écologique : L'entreprise se veut être actrice de premier plan de la transition énergétique, et a déjà été récompensée pour cela. En effet, d'une part, elle permet à ses clients de soutenir concrètement les énergies vertes, en changeant simplement de fournisseur, et en leur donnant des pistes pour réduire leur consommation d'énergie. D'autre part, elle soutient les petits producteurs indépendants, par exemple en favorisant l'essor de coopératives d'énergie citoyennes, qui promeuvent une production d'énergie décentralisée, écologique et indépendante des grandes firmes.",
+        "description3": "Engagement social : De plus, Enercoop a le statut de Société coopérative d'intérêt collectif (Scic). C'est-à-dire que l'entreprise promeut des valeurs collectives et doit avoir un double objectif: efficacité économique, mais aussi dimension sociale. Chez Enercoop, producteurs et consommateurs sont sociétaires et prennent part aux décisions de l'entreprise, dont les bénéfices sont réinvestis à hauteur d'au moins 57,5% dans des nouveaux moyens de production et des sevices de maîtrise de l'énergie. L'entreprise s'incrit également dans la mouvance du commerce équitable.",
+        "description4": "Enercoop Pays de la Loire, dont les locaux se situent sur Nantes au Solilab, vous offre des perspectives de carrière dans le développement solaire et le commerce. Elle se présente au forum pour vous rencontrer et pourquoi pas réfléchir avec vous à des offres de stage, quelque soit votre niveau et champ de formation.",
+        "description5": "A noter que l'entreprise animera un atelier sur les différentes offres d'électricité vertes, afin de comprendre les différences entre une offre verte d'enercoop et les autres.",
+        "image": "/images/Enercoop.svg",
+        "link": "https://www.enercoop.fr/"
     }
 ]

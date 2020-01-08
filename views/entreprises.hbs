@@ -1,24 +1,21 @@
 
-<div class='container'>
-    <div class='row'>
-        {{#each entreprises}}
-        <div class='col l4 m6 s12'>
-            
-            <div class="card">
-                <div class="card-image waves-effect waves-block waves-light">
-                    <img class="activator" src={{this.logo}}>
-                </div>
-                <div class="card-content">
-                    <span class="card-title activator grey-text text-darken-4">{{this.nom}}<i class="material-icons right">more_vert</i></span>
-                    <p><a href="#">{{this.link}}</a></p>
-                </div>
-                <div class="card-reveal">
-                    <span class="card-title grey-text text-darken-4">{{this.nom}}<i class="material-icons right">close</i></span>
-                    <p>{{this.description}}</p>
-                </div>
-            </div>
-            
-        </div>
-        {{/each}}
-    </div>
+{{#each entreprises}}
+<div class="parallax-container">
+	<div class="parallax"><img src={{this.image}}></div>
 </div>
+<div id={{this.id}} class="section scrollspy white">
+	<div class="row container">
+		<h2 class="header">{{this.nom}}</h2>
+		<p>{{this.description}}</p>
+        <p>{{this.description2}}</p>
+        <p>{{this.description3}}</p>
+        <p>{{this.description4}}</p>
+        <p>{{this.description5}}</p>
+        <p>Plus d'informations <a href={{this.link}}>ici</a></p>
+	</div>
+</div>
+{{/each}}
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="/js/ecoles.js"></script>

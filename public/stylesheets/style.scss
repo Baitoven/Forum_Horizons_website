@@ -17,7 +17,12 @@ body {
     height:100%;
 }
 
-nav {
+main {
+    flex: 1 0 auto;
+    min-height: 70vh;
+}
+
+nav {   
     background-color: $color2;
     padding-left: 2vh;
 }

@@ -34,7 +34,7 @@ app.get('/', function(req, res) {
   });
 
 app.get('/entreprises', function(req, res) {
-  entreprises = JSON.parse(fs.readFileSync('./public/data/entreprises.json', 'utf8'));
+  entreprises = JSON.parse(fs.readFileSync(path.join(__dirname,'public','data','entreprises.json'), 'utf8'));
   res.render('entreprises', {
     title: "Forum Horizons | Entreprises",
     entreprises: entreprises
@@ -53,11 +53,16 @@ app.get('/contact', function(req, res) {
   })
 });
 
+app.get('/infos', function(req, res) {
+  res.render('infos', {
+    title: "Forum Horizons | Infos Pratiques"
+  })
+});
+
 app.get('/jour_j', function(req, res) {
   res.render('jour_j', {
     title: "Forum Horizons | Le Jour J"
   })
 });
-
 
 app.listen(80);
